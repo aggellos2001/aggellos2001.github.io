@@ -1,12 +1,91 @@
-{{ define "styles" }}
+<!-- {{ define "styles" }}
 {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/404.scss" "dest" "css/404.css") }}
-{{ end }}
+{{ end }} -->
 
-{{ define "main" }}
+<!-- {{ define "main" }}
 <article>
     <h1>
         Oops looks like you lost your way!
         Get back to the <a href="/">home page</a>
     </h1>
 </article>
-{{ end }}
+{{ end }} -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - Page not found!</title>
+    <script>
+        window.onload = function () {
+            document.getElementById("dino").style.display = "none";
+        }
+        function showGame() {
+            document.getElementById("emsg").style.display = "none";
+            document.getElementById("dino").style.display = "block";
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Comic Sans MS';
+        }
+
+        #msgdiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .playbtn {
+            margin: 2em;
+            cursor: pointer;
+            font-family: 'comic sans ms';
+            font-weight: bold;
+            color: #04086A !important;
+            font-size: 19px;
+            text-shadow: 0px 0px 0px #000000;
+            box-shadow: 1px 1px 1px #BEE2F9;
+            padding: 10px 25px;
+            border-radius: 40px;
+            border: 0px solid #3866A3;
+            background: #C1EEEB;
+        }
+
+        .playbtn:hover {
+            color: #14396A !important;
+            background: #97CF93;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="msgdiv">
+        <h1 id="emsg" style="text-align:center;color:#04086A">
+            Oops looks like you hit a dead end!
+            <br />
+            You can go back to the home page or play a game! <br />
+            <a href="/"><button class="playbtn" type="button">Go home!</button></a>
+            <button class="playbtn" type="button" onclick="showGame()">Play a game!</button>
+
+        </h1>
+        </divi>
+
+        <iframe style="display:none" id="dino" src="https://chromedino.com/" frameborder="0" scrolling="no" width="100%"
+            height="100%" loading="lazy"></iframe>
+        <style type="text/css">
+            iframe {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 999;
+            }
+        </style>
+
+</body>
+
+</html>

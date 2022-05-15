@@ -1,6 +1,7 @@
 /**
  * Dark Reader v4.9.46
  * https://darkreader.org/
+ * 
  */
 
 (function (global, factory) {

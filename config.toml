@@ -2,7 +2,7 @@
 theme = "hugo-theme-codex"
 
 # Override these settings with your own
-title = "tsiantakis.dev blog"
+title = "Tsiantakis Blog"
 languageCode = "en-us"
 baseURL = "https://aggellos2001.github.io"
 copyright = "© Tsiantakis Michail Angelos {year}"
