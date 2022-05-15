@@ -5,7 +5,7 @@ theme = "hugo-theme-codex"
 title = "tsiantakis.dev blog"
 languageCode = "en-us"
 baseURL = "https://aggellos2001.github.io"
-copyright = "© 2022"
+copyright = "© Tsiantakis Michail Angelos {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -40,7 +40,7 @@ copyright = "© 2022"
   # twitterAuthor = "@<your handle>"
 
   # Set to true to display page title in table of contents in blog posts.
-  showPageTitleInTOC = false
+  showPageTitleInTOC = true
 
 # This disables Hugo's default syntax highlighting in favor
 # of prismjs. If you wish to use Hugo's default syntax highlighting
@@ -66,5 +66,6 @@ copyright = "© 2022"
   name = "blog"
   title = "Blog"
   url = "/blog"
+  
 
 

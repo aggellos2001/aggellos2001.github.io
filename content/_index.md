@@ -1,5 +1,15 @@
 ---
-heading: "Hello I'm Tsiantakis Michail Angelos"
-subheading: "We are under construction! See you soon!" 
+heading: "Hello, I'm Tsiantakis Michail Angelos"
+subheading: "" 
 handle: "aggellos2001"
 ---
+Currently studying Computer Science at [Digital Systems in University of Thessaly](https://ds.uth.gr/en/home/)!
+
+<br/>
+
+| Credits:                                                     |
+| :----------------------------------------------------------- |
+| 1. Hugo (The world’s fastest framework for building websites) for making this possible: https://gohugo.io/ |
+| 2. [@jakewies](https://github.com/jakewies) for making the theme which you see right now: https://github.com/jakewies/hugo-theme-codex |
+
+###### This website code is [public]( https://github.com/aggellos2001/aggellos2001.github.io). Contributions are always welcome!
