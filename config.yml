@@ -1,6 +1,7 @@
 baseURL: https://aggellos2001.github.io/
 title: Tsiantakis Blog
 theme: "PaperMod"
+copyright: Tsiantakis Michail Angelos
 
 enableRobotsTXT: true
 
@@ -15,7 +16,7 @@ params:
   keywords: [Blog, Tsiantakis, Developer, aggellos2001]
   author: Tsiantakis Michail Angelos
   DateFormat: "January 2, 2006"
-  defaultTheme: 
+  defaultTheme: auto #dark,light,auto
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
