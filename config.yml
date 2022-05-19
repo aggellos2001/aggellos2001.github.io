@@ -1,9 +1,12 @@
-baseURL: https://aggellos2001.github.io/
+baseURL: https://tsiantakis.dev/
 title: Tsiantakis Blog
 theme: "PaperMod"
 copyright: Tsiantakis Michail Angelos
 
 enableRobotsTXT: true
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
 
 minify:
   disableXML: true
