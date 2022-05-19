@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on Tsiantakis Blog</title>
-    <link>https://aggellos2001.github.io/series/</link>
+    <link>https://tsiantakis.dev/series/</link>
     <description>Recent content in Series on Tsiantakis Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Tsiantakis Michail Angelos</copyright><atom:link href="https://aggellos2001.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Tsiantakis Michail Angelos</copyright><atom:link href="https://tsiantakis.dev/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
