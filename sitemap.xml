@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tsiantakis.dev/blog/2022/may/soon/</loc>
-    <lastmod>2022-05-16T13:12:39+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-  </url><url>
-    <loc>https://tsiantakis.dev/blog/</loc>
-    <lastmod>2022-05-16T13:12:39+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-  </url><url>
-    <loc>https://tsiantakis.dev/</loc>
-    <lastmod>2022-05-16T13:12:39+03:00</lastmod>
-    <changefreq>monthly</changefreq>
-  </url><url>
     <loc>https://tsiantakis.dev/archives/</loc>
     <changefreq>monthly</changefreq>
   </url><url>
@@ -27,6 +15,9 @@
     <changefreq>monthly</changefreq>
   </url><url>
     <loc>https://tsiantakis.dev/tags/</loc>
+    <changefreq>monthly</changefreq>
+  </url><url>
+    <loc>https://tsiantakis.dev/</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
