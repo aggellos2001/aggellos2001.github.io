@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <style>
+        /* general styling */
+        :root {
+            --smaller: .75;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            align-items: center;
+            background-color: #65a9fc;
+            display: flex;
+            font-family: -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Oxygen-Sans,
+                Ubuntu,
+                Cantarell,
+                "Helvetica Neue",
+                sans-serif;
+        }
+
+        .container {
+            color: #333;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: normal;
+            letter-spacing: .125rem;
+            text-transform: uppercase;
+        }
+
+        li {
+            display: inline-block;
+            font-size: 1.5em;
+            list-style-type: none;
+            padding: 1em;
+            text-transform: uppercase;
+        }
+
+        li span {
+            display: block;
+            font-size: 4.5rem;
+        }
+
+        .emoji {
+            display: none;
+            padding: 1rem;
+        }
+
+        .emoji span {
+            font-size: 4rem;
+            padding: 0 .5rem;
+        }
+
+        @media all and (max-width: 768px) {
+            h1 {
+                font-size: calc(1.5rem * var(--smaller));
+            }
+
+            li {
+                font-size: calc(1.125rem * var(--smaller));
+            }
+
+            li span {
+                font-size: calc(3.375rem * var(--smaller));
+            }
+        }
+    </style>
+    <meta name="robots" content="noindex" />
+    <meta name="AdsBot-Google" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="noindex" />
+    <meta name="googlebot-news" content="nosnippet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="headline">Countdown</h1>
+        <h2 id="subject">Ψηφιακά Τηλεπικοινωνιακά Συστήματα</h2>
+        <h2 id="subject">Εξεταστική Σεπτεμβρίου 2022</h2>
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+                <li><span id="seconds"></span>Seconds</li>
+            </ul>
+            <h6>Credit: https://codepen.io/AllThingsSmitty/pen/JJavZN</h6>
+        </div>
+        <div id="content" class="emoji">
+            <span>💀</span>
+            <span>☠️</span>
+            <span>🦴</span>
+        </div>
+    </div>
+    <script>
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+
+            exam = new Date("2022-09-01T13:00:00");
+
+            const countDown = new Date(exam).getTime(),
+                x = setInterval(function () {
+
+                    const now = new Date().getTime(),
+                        distance = countDown - now;
+
+                    document.getElementById("days").innerText = Math.floor(distance / (day)),
+                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+                    //do something later when date is reached
+                    if (distance < 0) {
+                        document.getElementById("headline").innerText = "RIP. See you in January!";
+                        document.getElementById("countdown").style.display = "none";
+                        document.getElementById("content").style.display = "block";
+                        clearInterval(x);
+                    }
+                    //seconds
+                }, 0)
+        }());
+    </script>
+</body>
+
+</html>
