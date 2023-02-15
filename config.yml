@@ -38,12 +38,11 @@ params:
   
   
   homeInfoParams:
-    Title: Hello 👋, welcome to my page!
+    Title: Welcome to my page 👋🏻
     Content: >
-      Hi there, glad to see you. My name is Tsiantakis 
-      Michail Angelos and I currently study Computer Science 
-      in the Department of Digital Systems at the University 
-      of Thessaly.
+      My name is Michail Angelos Tsiantakis and I am currently
+      studying Computer Science in the [Department of Digital Systems](https://ds.uth.gr/en/home/)
+      at the University of Thessaly.
   
   socialIcons:
     - name: "github"
@@ -54,14 +53,15 @@ params:
       url: "https://medium.com/@aggellos2001"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/mtsiantakis/"
+#    - name: "rss"
+#      url: "/index.xml"
 
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
-  
-   
+
 languages:
     en:
       languageName: "English"
@@ -87,3 +87,34 @@ languages:
           # - name: Categories
           #   url: categories/
           #   weight: 10
+    gr:
+      languageName: "Ελληνικά"
+      weight: 1
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      menu:
+        main:
+          - name: Αρχική
+            url: /
+            weight: 1
+          # - name: Archive
+          #   url: archives/
+          #   weight: 5
+          # - name: Search
+          #   url: search/
+          #   weight: 10
+          # - name: Tags
+          #   url: tags/
+          #   weight: 10
+          # - name: Categories
+          #   url: categories/
+          #   weight: 10
+      homeInfoParams:
+          Title: Καλωσήρθατε στην σελίδα μου 👋🏻
+          Content: >
+            Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι φοιτητής
+            στο τμήμα [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
+            στην Λάρισα.
+            
