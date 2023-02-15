@@ -87,7 +87,7 @@ languages:
           # - name: Categories
           #   url: categories/
           #   weight: 10
-    gr:
+    el:
       languageName: "Ελληνικά"
       weight: 1
       taxonomies:
