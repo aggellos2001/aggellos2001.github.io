@@ -1,6 +1,6 @@
 ---
-title: "Blog"
+title: "Άρθρα"
 layout: "archives"
-url: "/archives/"
+url: "/el/archives/"
 summary: archives
 ---
