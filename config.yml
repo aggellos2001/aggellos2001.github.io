@@ -75,7 +75,7 @@ languages:
           - name: Home
             url: /
             weight: 1
-          - name: Άρθρα
+          - name: Blog
             url: archives/
             weight: 2
           - name: Search
@@ -111,7 +111,7 @@ languages:
           - name: "Αρχική"
             url: "/"
             weight: 1
-          - name: "Blog"
+          - name: "Άρθρα"
             url: "archives/"
             weight: 2
           - name: "Αναζήτηση"
