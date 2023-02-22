@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Jetbrains Mono Italic';
-    src: url('fonts/JetBrainsMono-Italic[wght].ttf') format('truetype-variations');
+    src: url('JetBrainsMono-Italic[wght].ttf') format('truetype-variations');
     font-style: italic;
 }
 
