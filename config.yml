@@ -1,22 +1,25 @@
-baseURL: https://tsiantakis.dev/
+baseURL: "https://tsiantakis.dev/"
 title: "tsiantakis.dev"
 theme: "PaperMod"
-copyright: Tsiantakis Michail Angelos
+copyright: "Tsiantakis Michail Angelos"
 
 enableRobotsTXT: true
 sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
+  changefreq: "monthly"
+  filename: "sitemap.xml"
 
 minify:
   disableXML: true
   minifyOutput: true
 
 params:
-  env: production
-  title: Tsiantakis Blog
-  description: "Tsiantakis Blog"
-  keywords: [Michail Angelos Tsiantakis,Blog,Tsiantakis,Developer,aggellos2001]
+  env: "production"
+  title: "Michail Angelos Tsiantakis"
+  description: "
+  I am Computer Science undergraduate at the University of Thessaly.
+  This is my personal blog where I write about various projects and interests."
+  keywords: ["Michail Angelos Tsiantakis","Blog","Tsiantakis","Developer","aggellos2001",
+  "Coding","Μιχαήλ Άγγελος Τσιαντάκης","Άρθρα","Github page"]
   author: "Michail Angelos Tsiantakis"
   DateFormat: "January 2, 2006"
   defaultTheme: auto #dark,light,auto
@@ -36,13 +39,6 @@ params:
   showtoc: true
   tocopen: false
 
-  
-  # homeInfoParams:
-  #   Title: Welcome to my page 👋🏻
-  #   Content: >
-  #     My name is Michail Angelos Tsiantakis and I am currently
-  #     studying Computer Science in the [Department of Digital Systems](https://ds.uth.gr/en/home/)
-  #     at the University of Thessaly.
   
   socialIcons:
     - name: "github"
@@ -98,14 +94,16 @@ languages:
         # buttons:
         #  - name: "Blog"
         #    url: "archives/"
+
+
     # -------- GR - EL -------
     el:
       languageName: "Ελληνικά"
       weight: 1
       taxonomies:
-        category: "categories"
-        tag: "tags"
-        series: "series"
+        category: categories
+        tag: tags
+        series: series
       menu:
         main:
           - name: "Αρχική"
@@ -117,15 +115,15 @@ languages:
           - name: "Αναζήτηση"
             url: "search/"
             weight: 3
-          - name: Ετικέτες
+          - name: "Ετικέτες"
             url: "tags/"
             weight: 4
-          - name: Κατηγορίες
+          - name: "Κατηγορίες"
             url: categories/
             weight: 5
       profileMode:
         enabled: true
-        title: "Καλωσήρθατε στην σελίδα μου 👋🏻"
+        title: "Καλωσορίσατε στην σελίδα μου 👋🏻"
         subtitle: "Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι φοιτητής
              στο τμήμα [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
              στην Λάρισα."
@@ -134,10 +132,4 @@ languages:
         # buttons:
         #  - name: "Blog"
         #    url: "archives/"
-      # homeInfoParams:
-      #     Title: Καλωσήρθατε στην σελίδα μου 👋🏻
-      #     Content: >
-      #       Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι φοιτητής
-      #       στο τμήμα [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
-      #       στην Λάρισα.
             
