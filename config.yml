@@ -45,10 +45,10 @@ params:
       url: "https://github.com/aggellos2001"
     - name: "twitter"
       url: "https://twitter.com/aggellos2001"
-    - name: "medium"
-      url: "https://medium.com/@aggellos2001"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/mtsiantakis/"
+    - name: "mastodon"
+      url: "https://mastodon.social/@aggellos2001"
     - name: "rss"
       url: "/index.xml"
 
