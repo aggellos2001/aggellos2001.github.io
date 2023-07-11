@@ -1,0 +1,144 @@
+baseURL = "https://tsiantakis.dev/"
+title = "tsiantakis.dev"
+theme = "PaperMod"
+copyright = "Tsiantakis Michail Angelos"
+
+
+enableRobotsTXT = true
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Michail Angelos Tsiantakis"
+keywords = [
+    "Michail Angelos Tsiantakis",
+    "Blog",
+    "Tsiantakis",
+    "Developer",
+    "aggellos2001",
+    "Coding",
+    "Μιχαήλ Άγγελος Τσιαντάκης",
+    "Άρθρα",
+    "Github page",
+]
+author = "Tsiantakis Michail Angelos"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/aggellos2001"
+[[params.socialIcons]]
+name = "Mastodon"
+url = "https://mastodon.social/@aggellos2001"
+[[params.socialIcons]]
+name = "Twitter"
+url = "https://twitter.com/aggellos2001"
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/mtsiantakis/"
+[[params.socialIcons]]
+name = "rss"
+url = "/index.xml"
+
+
+[output]
+home = ["HTML", "RSS", "JSON"]
+
+
+# Language configuration
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+[languages.en.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+[languages.en.menu]
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[languages.en.menu.main]]
+name = "Blog"
+url = "archives/"
+weight = 2
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 3
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 4
+[[languages.en.menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 5
+[languages.en.params.profileMode]
+enabled = true
+title = "Welcome to my page 👋🏻"
+subtitle = """My name is Michail Angelos Tsiantakis and I am currently 
+        studying Computer Science in the [Department of Digital Systems](https://ds.uth.gr/en/home/)
+        at the University of Thessaly."""
+imageUrl = "/assets/tall.png"
+imageTitle = "Michail Angelos Tsiantakis"
+
+[languages.el]
+languageName = "Ελληνικά"
+weight = 2
+[languages.el.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+[languages.el.menu]
+[[languages.el.menu.main]]
+name = "Αρχική"
+url = "/"
+weight = 1
+[[languages.el.menu.main]]
+name = "Άρθρα"
+url = "archives/"
+weight = 2
+[[languages.el.menu.main]]
+name = "Αναζήτηση"
+url = "search/"
+weight = 3
+[[languages.el.menu.main]]
+name = "Ετικέτες"
+url = "tags/"
+weight = 4
+[[languages.el.menu.main]]
+name = "Κατηγορίες"
+url = "categories/"
+weight = 5
+[languages.el.params.profileMode]
+enabled = true
+title = "Καλώς ήρθατε στην σελίδα μου 👋🏻"
+subtitle = """Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι φοιτητής
+             στο τμήμα [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
+             στην Λάρισα."""
+imageUrl = "/assets/tall.png"
+imageTitle = "Μιχαήλ Άγγελος Τσιαντάκης"

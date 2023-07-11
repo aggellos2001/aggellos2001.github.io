@@ -96,7 +96,7 @@ languages:
         #    url: "archives/"
 
 
-    # -------- GR - EL -------
+    -------- GR - EL -------
     el:
       languageName: "Ελληνικά"
       weight: 1
