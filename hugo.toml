@@ -63,7 +63,7 @@ name = "rss"
 url = "/index.xml"
 
 
-[output]
+[outputs]
 home = ["HTML", "RSS", "JSON"]
 
 
@@ -83,7 +83,7 @@ url = "/"
 weight = 1
 [[languages.en.menu.main]]
 name = "Blog"
-url = "archives/"
+url = "blog/"
 weight = 2
 [[languages.en.menu.main]]
 name = "Search"
@@ -97,13 +97,17 @@ weight = 4
 name = "Categories"
 url = "categories/"
 weight = 5
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives/"
+weight = 6
 [languages.en.params.profileMode]
 enabled = true
 title = "Welcome to my page 👋🏻"
-subtitle = """My name is Michail Angelos Tsiantakis and I am currently 
-        studying Computer Science in the [Department of Digital Systems](https://ds.uth.gr/en/home/)
+subtitle = """My name is Michail Angelos Tsiantakis and I recently
+graduated from the [Dept. of Digital Systems of the School of Tenchology](https://ds.uth.gr/en/home/)
         at the University of Thessaly."""
-imageUrl = "/assets/tall.png"
+imageUrl = "/assets/tall_grad.png"
 imageTitle = "Michail Angelos Tsiantakis"
 
 [languages.el]
@@ -120,7 +124,7 @@ url = "/"
 weight = 1
 [[languages.el.menu.main]]
 name = "Άρθρα"
-url = "archives/"
+url = "blog/"
 weight = 2
 [[languages.el.menu.main]]
 name = "Αναζήτηση"
@@ -134,11 +138,18 @@ weight = 4
 name = "Κατηγορίες"
 url = "categories/"
 weight = 5
+[[languages.el.menu.main]]
+name = "Αρχείο"
+url = "archives/"
+weight = 6
 [languages.el.params.profileMode]
 enabled = true
 title = "Καλώς ήρθατε στην σελίδα μου 👋🏻"
-subtitle = """Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι φοιτητής
-             στο τμήμα [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
-             στην Λάρισα."""
-imageUrl = "/assets/tall.png"
+subtitle = """Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι [απόφοιτος](/el/blog/2023/july/graduation/)
+             του τμήματος [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
+             του Πανεπιστήμιου Θεσσαλίας στην Λάρισα."""
+imageUrl = "/assets/tall_grad.png"
 imageTitle = "Μιχαήλ Άγγελος Τσιαντάκης"
+
+[markup.goldmark.renderer]
+unsafe = true
