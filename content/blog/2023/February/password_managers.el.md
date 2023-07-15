@@ -1,39 +1,38 @@
----
-title: "🔐Διαχειριστές κωδικών - Password Managers"
-date: 2023-01-30T15:21:04+02:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["passwords", "security","password_manager","ασφάλεια","διαχειριστές κωδικών"]
-# author: ["Me", "You"] # using default in config
-categories: ["Ασφάλεια"]
-showToc: true
-TocOpen: false
-draft: false
-hidemeta: false
-comments: true
-description: "Μια σύνοψη"
-disableHLJS: false # to disable highlightjs
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-cover:
-   image: "https://images.unsplash.com/photo-1627019675516-5468b934815c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=605&q=80" # image path/url
-#    alt: "<alt text>" # alt text
-   caption: "Photo by [Jason Dent](https://unsplash.com/@jdent) on [Unsplash](https://unsplash.com/)" # display caption under cover
-#    relative: false # when using page bundles set this to true
-#    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/aggellos2001/aggellos2001.github.io/tree/main/content"
-    Text: "Προτείνετε αλλαγές" # edit text
-    appendFilePath: true # to append file path to Edit link
----
++++
+title = "🔐Διαχειριστές κωδικών - Password Managers"
+date =  2023-01-30T15:21:04+02:00
+# weight = 1
+# aliases = ["/first"]
+tags = ["passwords", "security","password_manager","ασφάλεια","διαχειριστές κωδικών"]
+# author = ["Me", "You"]
+categories = ["Ασφάλεια"]
+showToc = true
+TocOpen = false
+draft = false
+hidemeta = false
+comments = true
+description = "Μια σύνοψη"
+disableHLJS = false # to disable highlightjs
+disableShare = false
+hideSummary = false
+searchHidden = false
+ShowReadingTime = true
+ShowBreadCrumbs = true
+ShowPostNavLinks = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+[cover]
+   image = "https://images.unsplash.com/photo-1627019675516-5468b934815c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=605&q=80" # image path/url
+#    alt = "<alt text>"
+   caption =  "Photo by [Jason Dent](https://unsplash.com/@jdent) on [Unsplash](https://unsplash.com/)"
+#    relative = false
+#    hidden = true
+[editPost]
+    URL = "https://github.com/aggellos2001/aggellos2001.github.io/tree/main/content"
+    Text = "Προτείνετε αλλαγές" # edit text
+    appendFilePath = true # to append file path to Edit link
++++
 > Διαχειριστές κωδικών γνωστοί και ως Password Managers στα αγγλικά.
 
 ## Γιατί;
