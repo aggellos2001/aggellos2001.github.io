@@ -1,7 +1,6 @@
 +++
 title = "🎓 Ορκωμοσία"
 date = 2023-07-15T17:00:00+03:00
-expiryDate = 2023-07-19T00:00:00+03:00
 # aliases = ["/first"]
 #tags = ["first"]
 # author = ["Me", "You"]
