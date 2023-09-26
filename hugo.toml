@@ -53,7 +53,7 @@ url = "https://github.com/aggellos2001"
 name = "Mastodon"
 url = "https://mastodon.social/@aggellos2001"
 [[params.socialIcons]]
-name = "Twitter"
+name = "X"
 url = "https://twitter.com/aggellos2001"
 [[params.socialIcons]]
 name = "LinkedIn"
@@ -71,8 +71,9 @@ home = ["HTML", "RSS", "JSON"]
 [languages]
 [languages.en]
 languageName = "English"
-displayFullLangName = true
 weight = 1
+[languages.en.params]
+displayFullLangName = true
 [languages.en.taxonomies]
 category = "categories"
 tag = "tags"
@@ -108,13 +109,14 @@ title = "Welcome to my page 👋🏻"
 subtitle = """My name is Michail Angelos Tsiantakis and I recently
 graduated from the [Dept. of Digital Systems of the School of Tenchology](https://ds.uth.gr/en/home/)
         at the University of Thessaly."""
-imageUrl = "/assets/tall_grad.png"
+imageUrl = "/assets/tall.png"
 imageTitle = "Michail Angelos Tsiantakis"
 
 [languages.el]
 languageName = "Ελληνικά"
-displayFullLangName = true
 weight = 2
+[languages.el.params]
+displayFullLangName = true
 [languages.el.taxonomies]
 category = "categories"
 tag = "tags"
@@ -150,7 +152,7 @@ title = "Καλώς ήρθατε στην σελίδα μου 👋🏻"
 subtitle = """Ονομάζομαι Μιχαήλ Άγγελος Τσιαντάκης και είμαι [απόφοιτος](/el/blog/2023/july/graduation/)
              του τμήματος [Ψηφιακών Συστημάτων](https://ds.uth.gr/) 
              του Πανεπιστήμιου Θεσσαλίας στην Λάρισα."""
-imageUrl = "/assets/tall_grad.png"
+imageUrl = "/assets/tall.png"
 imageTitle = "Μιχαήλ Άγγελος Τσιαντάκης"
 
 
