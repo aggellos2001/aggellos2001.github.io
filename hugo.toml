@@ -110,7 +110,7 @@ weight = 6
 enabled = true
 title = "Welcome to my page 👋🏻"
 subtitle = """My name is Michail Angelos Tsiantakis and I recently
-graduated from the [Dept. of Digital Systems of the School of Tenchology](https://ds.uth.gr/en/home/)
+graduated from the [Dept. of Digital Systems of the School of Technology](https://ds.uth.gr/en/home/)
         at the University of Thessaly."""
 imageUrl = "/assets/tall.png"
 imageTitle = "Michail Angelos Tsiantakis"
