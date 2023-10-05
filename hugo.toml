@@ -74,6 +74,7 @@ home = ["HTML", "RSS", "JSON"]
 [languages]
 [languages.en]
 languageName = "English"
+languageCode = "en"
 weight = 1
 [languages.en.params]
 displayFullLangName = true
@@ -117,6 +118,7 @@ imageTitle = "Michail Angelos Tsiantakis"
 
 [languages.el]
 languageName = "Ελληνικά"
+languageCode = "el"
 weight = 2
 [languages.el.params]
 displayFullLangName = true

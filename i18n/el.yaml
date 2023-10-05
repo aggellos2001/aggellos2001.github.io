@@ -1,0 +1,4 @@
+- id: 404-not-found
+  translation: "Η σελίδα που ψάχνετε δεν υπάρχει!"
+- id: 404-go-home
+  translation: "Επιστρέψτε στην αρχική σελίδα!"

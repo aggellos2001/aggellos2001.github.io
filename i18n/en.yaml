@@ -1,0 +1,5 @@
+- id: 404-not-found
+  translation: "The page you are looking for doesn't exist!"
+- id: 404-go-home
+  translation: "Go back home!"
+  
