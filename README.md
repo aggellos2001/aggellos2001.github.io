@@ -1,3 +1,7 @@
+
+> [!CAUTION]  
+> Development of the site now known as [**tsiantakis.com**](https://tsiantakis.com) is moved to GitLab [here](https://gitlab.com/aggellos2001/aggellos2001.gitlab.io).
+
 # tsiantakis.dev website
 
 Welcome to my personal page which is built using [Hugo](https://gohugo.io/) and themed with [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
