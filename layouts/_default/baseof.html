@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default " auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+
+    <style>
+        .notification-top-bar {
+        /* position: fixed;
+        top: 0;
+        left: 0; */
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        background: #424000;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: helvetica, sans-serif;
+        font-size: 16px;
+        }
+        .notification-top-bar p {
+        padding: 0;
+        margin: 0;
+        white-space: nowrap;
+        overflow-x: scroll;
+        font-weight: bolder;
+        }
+        /* .notification-top-bar p a {
+        padding: 5px 10px;
+        border-radius: 3px;
+        background: #FFF;
+        color: #424000;
+        font-weight: bold;
+        text-decoration: none;
+        } */
+    </style>
+</head>
+
+<body class="
+{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}
+{{- print " list" -}} {{- end -}} {{- if eq site.Params.defaultTheme `dark` -}} {{- print " dark" }} {{- end -}} " id="
+    top">
+
+    <div class="notification-top-bar">
+        <p>{{site.Params.banner}}</p>
+    </div>
+
+    
+    {{- partialCached "header.html" . .Page -}}
+
+    <main class="main">
+        {{- block "main" . }}{{ end }}
+    </main>
+    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+</body>
+
+</html>

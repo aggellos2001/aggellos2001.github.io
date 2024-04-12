@@ -1,5 +1,5 @@
-baseURL = "https://tsiantakis.dev/"
-title = "tsiantakis.dev"
+baseURL = "https://tsiantakis.com/"
+title = "Michail Angelos Tsiantakis"
 theme = "PaperMod"
 copyright = "Michail Angelos Tsiantakis"
 
@@ -39,7 +39,7 @@ ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
-disableScrollToTop = false
+disableScrollToTop = true # seems to break with banner so disable temporary?
 comments = false
 hidemeta = false
 hideSummary = false
@@ -78,6 +78,7 @@ languageCode = "en"
 weight = 1
 [languages.en.params]
 displayFullLangName = true
+banner = "🔔 tsiantakis.DEV is now tsiantakis.COM"
 [languages.en.taxonomies]
 category = "categories"
 tag = "tags"
@@ -109,7 +110,7 @@ url = "archives/"
 weight = 6
 [languages.en.params.profileMode]
 enabled = true
-title = "Welcome to my page 👋🏻"
+title = "Welcome to my page 👋"
 subtitle = """My name is Michail Angelos Tsiantakis and I recently
 graduated from the [Dept. of Digital Systems of the School of Technology](https://ds.uth.gr/en/home/)
         at the University of Thessaly."""
@@ -122,6 +123,7 @@ languageCode = "el"
 weight = 2
 [languages.el.params]
 displayFullLangName = true
+banner = "🔔 Το tsiantakis.DEV είναι πλέον tsiantakis.COM"
 [languages.el.taxonomies]
 category = "categories"
 tag = "tags"
