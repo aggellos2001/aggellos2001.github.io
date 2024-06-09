@@ -1,0 +1,11 @@
+baseurl = "https://tsiantakis.com"
+languageCode = "en-us"
+paginate = 5
+
+# Theme i18n support
+defaultContentLanguage = "el"
+
+hasCJKLanguage = false
+
+#disqusShortname = "hugo-theme-stack"
+theme = "Stack"

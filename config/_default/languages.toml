@@ -1,0 +1,16 @@
+[el]
+languageName = "Ελληνικά"
+languagedirection = "ltr"
+title = "Μιχαήλ Άγγελος Τσιαντάκης"
+weight = 1
+[el.params]
+sidebar.subtitle = "Προγραμματιστής"
+
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "Michail Angelos Tsiantakis"
+weight = 2
+[en.params]
+sidebar.subtitle = "Developer"
+

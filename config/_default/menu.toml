@@ -1,0 +1,55 @@
+#[[main]]
+#identifier = "home"
+#name = "Home"
+#url = "/"
+#[main.params]
+#icon = "home"
+#newtab = false
+
+[[social]]
+weight = 1
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/mtsiantakis/"
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
+weight = 2
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/aggellos2001"
+[social.params]
+icon = "brand-github"
+
+[[social]]
+weight = 3
+identifier = "Mastodon"
+name = "Mastodon"
+url = "https://mastodon.social/@aggellos2001"
+[social.params]
+icon = "brand-mastodon"
+
+[[social]]
+weight = 4
+identifier = "X"
+name = "X (Formerly known as Twitter)"
+url = "https://twitter.com/aggellos2001"
+[social.params]
+icon = "brand-x"
+
+[[social]]
+weight = 5
+identifier = "RSS"
+name = "RSS Ελληνικά"
+url = "/index.xml"
+[social.params]
+icon = "rss"
+
+[[social]]
+weight = 6
+identifier = "RSS English"
+name = "RSS English"
+url = "/index.xml"
+[social.params]
+icon = "rss"

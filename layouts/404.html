@@ -1,12 +1,17 @@
-{{- define "main" }}
-<div style="display: flex; flex-flow: column nowrap; justify-content: center;align-items: center; text-align: center;">
-    <p style="font-size: 100px;">404</p>
-    <p style="font-size: 25px;"> {{ i18n "404-not-found" }} </p>
-    <p>
-        <a href="/" style="text-decoration:underline; font-size: 20px;">
-            {{ i18n "404-go-home" }}
-        </a>
-    </p>
-    <img style="max-height: 50vh;" src="/assets/confused.webp" alt="d">
+{{ define "main" }}
+<div class="not-found-card">
+    <div style="display: flex; flex-flow: column nowrap; justify-content: center;align-items: center; text-align: center;">
+        <div style="padding-bottom: 1rem">
+            <p style="font-size: 120px;line-height: 0;">404</p>
+            <p style="font-size: 25px;line-height: 0;"> {{ i18n "404-not-found" }} </p>
+            <p>
+                <a href="/" style="text-decoration:underline; font-size: 20px;">
+                    {{ i18n "404-go-home" }}
+                </a>
+            </p>
+        </div>
+    <img style="max-height: 30vh;" src="/confused.webp" alt="confused-gif">
+    </div>
 </div>
-{{- end }}{{/* end main */ -}}
+{{ partialCached "footer/footer" . }}
+{{ end }}
