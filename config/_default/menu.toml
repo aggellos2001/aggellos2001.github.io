@@ -8,6 +8,14 @@
 
 [[social]]
 weight = 1
+identifier = "mail"
+name = "LinkedIn"
+url = "mailto: mail@tsiantakis.com"
+[social.params]
+icon = "mail"
+
+[[social]]
+weight = 2
 identifier = "linkedin"
 name = "LinkedIn"
 url = "https://www.linkedin.com/in/mtsiantakis/"
@@ -15,7 +23,7 @@ url = "https://www.linkedin.com/in/mtsiantakis/"
 icon = "brand-linkedin"
 
 [[social]]
-weight = 2
+weight = 3
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/aggellos2001"
@@ -23,7 +31,7 @@ url = "https://github.com/aggellos2001"
 icon = "brand-github"
 
 [[social]]
-weight = 3
+weight = 4
 identifier = "Mastodon"
 name = "Mastodon"
 url = "https://mastodon.social/@aggellos2001"
@@ -31,7 +39,7 @@ url = "https://mastodon.social/@aggellos2001"
 icon = "brand-mastodon"
 
 [[social]]
-weight = 4
+weight = 5
 identifier = "X"
 name = "X (Formerly known as Twitter)"
 url = "https://twitter.com/aggellos2001"
@@ -39,7 +47,7 @@ url = "https://twitter.com/aggellos2001"
 icon = "brand-x"
 
 [[social]]
-weight = 5
+weight = 6
 identifier = "RSS"
 name = "RSS Ελληνικά"
 url = "/index.xml"
@@ -47,7 +55,7 @@ url = "/index.xml"
 icon = "rss"
 
 [[social]]
-weight = 6
+weight = 7
 identifier = "RSS English"
 name = "RSS English"
 url = "/en/index.xml"
