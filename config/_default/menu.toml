@@ -50,6 +50,6 @@ icon = "rss"
 weight = 6
 identifier = "RSS English"
 name = "RSS English"
-url = "/index.xml"
+url = "/en/index.xml"
 [social.params]
 icon = "rss"
