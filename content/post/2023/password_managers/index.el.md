@@ -13,7 +13,7 @@ image = "bitwarden.png"
 [[links]]
 title = "1Password"
 description = "More than a password manager"
-website = "https://bitwarden.com/"
+website = "https://1password.com/"
 image = "1password.png"
 +++
 
